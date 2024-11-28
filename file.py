@@ -9,3 +9,14 @@ option = st.selectbox(
 )
 st.write("Su elección fue:", option)
 
+option = st.selectbox(
+  "Tipo de vehículo que usa",
+  ("Moto", "Carro", "Camión", "Helicóptero"),
+)
+st.write("Su elección fue:", option)
+
+option = st.selectbox(
+  "Tipo de vehículo que usa",
+  ("Moto", "Carro", "Camión", "Helicóptero"),
+)
+st.write("Su elección fue:", option)
