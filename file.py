@@ -3,6 +3,7 @@ import pandas as pd
 
 st.write("Esto es una linea de Prueba")
 st.text_input('dato')
+st.selectbox()
 
 
 st.write(1234)
