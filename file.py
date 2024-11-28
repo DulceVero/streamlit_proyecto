@@ -7,14 +7,3 @@ option = st.selectbox(
   "Tipo de vehículo que usa",
   ("Moto", "Carro", "Camión", "Helicóptero"),
 )
-
-option2 = st.selectbox(
-  "Tipo de vehículo que usa",
-  ("Moto", "Carro", "Camión", "Helicóptero"),
-)
-
-option3 = st.selectbox(
-  "Tipo de vehículo que usa",
-  ("Moto", "Carro", "Camión", "Helicóptero"),
-)
-
