@@ -3,9 +3,13 @@ import streamlit as st
 formulario = st.form('practica')
 
 st.write("Esto es una linea de Prueba")
-col = st.colums(2)
-cols[0].text_input('dato')
-cols[1].text_input('dato2')
+
+@st.fragment()
+def datos():
+  col = st.colums(2)
+  cols[0].text_input('dato')
+  cols[1].text_input('dato2')
+
 
 option = st.selectbox(
   "Tipo de vehículo que usa",
