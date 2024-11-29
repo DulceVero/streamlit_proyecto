@@ -4,7 +4,7 @@ formulario = st.form('practica')
 
 st.write("Esto es una linea de Prueba")
 
-@st.fragment()
+
 def datos():
   cols = st.colums(2)
   cols[0].text_input('dato')
