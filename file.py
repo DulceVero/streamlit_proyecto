@@ -1,5 +1,7 @@
 import streamlit as st
 
+formulario = st.form('practica')
+
 st.write("Esto es una linea de Prueba")
 st.text_input('dato')
 
