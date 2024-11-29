@@ -6,7 +6,7 @@ st.write("Esto es una linea de Prueba")
 
 @st.fragment()
 def datos():
-  col = st.colums(2)
+  cols = st.colums(2)
   cols[0].text_input('dato')
   cols[1].text_input('dato2')
 
