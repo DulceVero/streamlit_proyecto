@@ -3,7 +3,9 @@ import streamlit as st
 formulario = st.form('practica')
 
 st.write("Esto es una linea de Prueba")
-st.text_input('dato')
+col = st.colums(2)
+cols[0].text_input('dato')
+cols[1].text_input('dato2)
 
 option = st.selectbox(
   "Tipo de vehículo que usa",
@@ -14,10 +16,3 @@ tipo = st.selectbox(
   "Tipo de animal",
   ("Hervivoro", "Carnivoro"),
 )
-
-st.title("My Awesome App")
-
-def toggle_and_text():
-    cols = st.columns(2)
-    cols[0].toggle("Toggle")
-    cols[1].text_area("Enter text")
