@@ -25,3 +25,21 @@ with st.form("my_form"):
     
     # Botón para enviar el formulario
     submitted = st.form_submit_button("Guardar")
+
+
+st.title("Formulario con 8 Campos en Streamlit")
+
+with st.form("my_form"):
+    col1, col2 = st.columns(2)
+
+    with col1:
+        nombre = st.text_input("Nombre")
+        apellido = st.text_input("Apellido")
+        edad = st.number_input("Edad")
+        pais = st.selectbox("País", ["España", "México", "Argentina", "Estados Unidos"])
+
+    with col2:
+        email = st.text_input("Email")
+        telefono = st.text_input("Teléfono")
+        fecha_nacimiento = st.date_input("Fecha de Nacimiento")
+        intereses = st.multiselect("Intereses", ["Programación", "Data Science", "Machine Learning", "Inteligencia Artificial"])
