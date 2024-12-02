@@ -12,7 +12,7 @@ with st.form("my_form"):
 
     with col2:
         cedula = st.text_input("Cédula")
-        correo = st.email_input("Correo")
+        correo = st.text_input("Correo")
 
     with col3:
         telefono = st.text_input("Número de Telefóno")
@@ -21,5 +21,7 @@ with st.form("my_form"):
     with col4:
         sexo = st.selectbox("Sexo", ["MASCULUINO", "FEMENINO"])
         tipo_voceria = st.radio("Tipo de Vocería", ["Principal", "Suplente"])
+
+    
     # Botón para enviar el formulario
     submitted = st.form_submit_button("Guardar")
