@@ -28,11 +28,11 @@ with st.form("my_form"):
 
     with col1:
         nombre = st.text_input("Nombre")
-        email = st.text_input("Email")
+        email = st.text_input("Correo")
 
     with col2:
         edad = st.number_input("Edad")
         pais = st.selectbox("País", ["España", "México", "Argentina", "Estados Unidos"])
 
     # Botón para enviar el formulario
-    submitted = st.form_submit_button("Enviar")
+    submitted = st.form_submit_button("Guardar")
