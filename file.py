@@ -21,7 +21,6 @@ with st.form("my_form"):
     with col4:
         sexo = st.selectbox("Sexo", ["MASCULUINO", "FEMENINO"])
         tipo_voceria = st.radio("Tipo de Vocería", ["Principal", "Suplente"])
-
     
     # Botón para enviar el formulario
     submitted = st.form_submit_button("Guardar")
@@ -43,3 +42,4 @@ with st.form("mi_formulario"):
         telefono = st.text_input("Teléfono")
         fecha_nacimiento = st.date_input("Fecha de Nacimiento")
         intereses = st.multiselect("Intereses", ["Programación", "Data Science", "Machine Learning", "Inteligencia Artificial"])
+
