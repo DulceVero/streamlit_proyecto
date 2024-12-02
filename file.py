@@ -4,7 +4,7 @@ st.title("Activación del Comité de Vivienda")
 
 st.title("Datos de Voceros Activos")
 with st.form("my_form"):
-    col1, col2, col3, col4 = st.columns(2)
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
         nombre = st.text_input("Nombre")
