@@ -43,3 +43,6 @@ with st.form("mi_formulario"):
         fecha_nacimiento = st.date_input("Fecha de Nacimiento")
         intereses = st.multiselect("Intereses", ["Programación", "Data Science", "Machine Learning", "Inteligencia Artificial"])
 
+    # Botón para enviar el formulario
+    submitted = st.form_submit_button("Guardar")
+
