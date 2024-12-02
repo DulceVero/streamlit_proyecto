@@ -1,13 +1,16 @@
 import streamlit as st
 
-st.title("Formulario Básico en Streamlit")
+st.title("Activación del Comité de Vivienda")
 
+st.title("Datos de Voceros Activos")
 with st.form("my_form"):
     col1, col2 = st.columns(2)
 
     with col1:
         nombre = st.text_input("Nombre")
-        email = st.text_input("Correo")
+        apellido = st.text_input("Apellido")
+        cedula = st.text_input("Cédula")
+        correo = st.email_input("Correo")
 
     with col2:
         edad = st.number_input("Edad")
