@@ -29,7 +29,7 @@ with st.form("my_form"):
 
 st.title("Formulario con 8 Campos en Streamlit")
 
-with st.form("my_form"):
+with st.form("mi_formulario"):
     col1, col2 = st.columns(2)
 
     with col1:
