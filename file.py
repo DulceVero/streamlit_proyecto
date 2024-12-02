@@ -34,14 +34,15 @@ with st.form("mi_formulario"):
     with col1:
         nombre = st.text_input("Nombre")
         apellido = st.text_input("Apellido")
-        edad = st.number_input("Edad")
-        pais = st.selectbox("País", ["España", "México", "Argentina", "Estados Unidos"])
+        cedula = st.number_input("Cédula")
+        correo = st.text_input("Correo")
 
     with col2:
-        email = st.text_input("Email")
+        edad= st.text_input("Edad")
         telefono = st.text_input("Teléfono")
-        fecha_nacimiento = st.date_input("Fecha de Nacimiento")
-        intereses = st.multiselect("Intereses", ["Programación", "Data Science", "Machine Learning", "Inteligencia Artificial"])
+        sexo = st.selectbox("Sexo", ["MASCULUINO", "FEMENINO"])
+        tipo_voceria = st.radio("Tipo de Vocería", ["Principal", "Suplente"])
+        descripción = st.text_area("Descripción")
 
     # Botón para enviar el formulario
     submitted = st.form_submit_button("Guardar")
