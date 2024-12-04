@@ -1,6 +1,4 @@
 import streamlit as st
-import nompy as np
-import panda as pd
 
 st.title("Activación del Comité de Vivienda")
 
