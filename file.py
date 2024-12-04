@@ -1,4 +1,6 @@
 import streamlit as st
+import nompy as np
+import panda as pd
 
 st.title("Activación del Comité de Vivienda")
 
@@ -47,3 +49,8 @@ with st.form("mi_formulario"):
     # Botón para enviar el formulario
     submitted = st.form_submit_button("Guardar")
 
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)
